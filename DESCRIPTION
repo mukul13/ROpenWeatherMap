@@ -1,0 +1,11 @@
+Package: ROpenWeatherMap
+Type: Package
+Title: R package to acces weather data using OpenWeatherMap API
+Version: 1.1
+Date: 2016-01-13
+Authors@R: person("Mukul", "Chaware", email = "mukul.chaware13@gmail.com", role = c("aut", "cre"))
+Description: To access current weather data for one location or several locattions and to forecast weather for 5 days with data for every 3 hours
+LLicense: MIT + file LICENSE
+LazyData: TRUE
+imports: httr,RCurl,jsonlite
+RoxygenNote: 5.0.1.9000

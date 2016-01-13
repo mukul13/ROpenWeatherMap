@@ -22,6 +22,9 @@ get_current_weather=function(api_key,cityID=NA,city="",country="",coordinates=NA
 {
   url="http://api.openweathermap.org/data/2.5/weather?"
 
+  city=gsub(" ","+",city)
+  country=gsub(" ","+",country)
+  
   if(!is.na(cityID))
   {
     url=paste(url,"id=",cityID,sep="")
@@ -117,6 +120,9 @@ get_weather_forecast=function(api_key,cityID=NA,city="",country="",coordinates=N
 {
   url="http://api.openweathermap.org/data/2.5/forecast?q="
 
+  city=gsub(" ","+",city)
+  country=gsub(" ","+",country)
+  
   if(!is.na(cityID))
   {
     url=paste(url,"id=",cityID,sep="")

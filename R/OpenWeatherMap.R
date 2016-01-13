@@ -21,7 +21,10 @@ library(jsonlite)
 get_current_weather=function(api_key,cityID=NA,city="",country="",coordinates=NA,zip_code=NA)
 {
   url="http://api.openweathermap.org/data/2.5/weather?"
-
+  
+  city=gsub(" ","+",city)
+  country=gsub(" ","+",country)
+  
   if(!is.na(cityID))
   {
     url=paste(url,"id=",cityID,sep="")
@@ -33,6 +36,7 @@ get_current_weather=function(api_key,cityID=NA,city="",country="",coordinates=NA
 
     if(country!="")
     {
+     
       url=paste(url,",",country,sep="")
     }
   }
@@ -116,7 +120,10 @@ get_multiple_cities=function(api_key,bbox=NA,coordinates=NA,count=NA,cityIDs=NA,
 get_weather_forecast=function(api_key,cityID=NA,city="",country="",coordinates=NA)
 {
   url="http://api.openweathermap.org/data/2.5/forecast?q="
-
+  
+  city=gsub(" ","+",city)
+  country=gsub(" ","+",country)
+  
   if(!is.na(cityID))
   {
     url=paste(url,"id=",cityID,sep="")

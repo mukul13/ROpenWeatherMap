@@ -20,7 +20,8 @@ get_multiple_cities(api_key, bbox = NA, coordinates = NA, count = NA,
 
 \item{cluster}{use server clustering of points. Possible values are [yes, no]}
 
-\item{coordinates}{(lat,lon) coordinates of the location of your interest}
+\item{units}{metric units}
+
 }
 \value{
 data frame giving current weather data for several locations
@@ -29,6 +30,8 @@ data frame giving current weather data for several locations
 get current weather data for multiple cities
 }
 \examples{
+\dontrun{
 data=get_multiple_cities(api_key,cityIDs =c(524901,703448,2643743))
+}
 }
 

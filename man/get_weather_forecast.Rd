@@ -25,6 +25,8 @@ data frame giving weather forecast data for one location
 get weather forecast data for one location
 }
 \examples{
+\dontrun{
 data=get_weather_forecast(api_key,city="guwahati")
+}
 }
 

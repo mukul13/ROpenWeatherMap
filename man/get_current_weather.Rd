@@ -27,6 +27,8 @@ data frame giving current weather data for one location
 get current weather data for one location
 }
 \examples{
+\dontrun{
 data=get_current_weather(api_key,city="guwahati")
+}
 }
 

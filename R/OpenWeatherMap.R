@@ -21,11 +21,7 @@ library(jsonlite)
 get_current_weather=function(api_key,cityID=NA,city="",country="",coordinates=NA,zip_code=NA)
 {
   url="http://api.openweathermap.org/data/2.5/weather?"
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> fb9b3315727da6711437c22dede5ca1880362f8b
   city=gsub(" ","+",city)
   country=gsub(" ","+",country)
   
@@ -69,7 +65,7 @@ get_current_weather=function(api_key,cityID=NA,city="",country="",coordinates=NA
 #' @param count number of cities around the point that should be returned
 #' @param cityIDs city IDs
 #' @param cluster use server clustering of points. Possible values are [yes, no]
-#' @param coordinates (lat,lon) coordinates of the location of your interest
+#' @param units metric unit
 #' @return data frame giving current weather data for several locations
 #' @export
 #' @examples
@@ -124,11 +120,7 @@ get_multiple_cities=function(api_key,bbox=NA,coordinates=NA,count=NA,cityIDs=NA,
 get_weather_forecast=function(api_key,cityID=NA,city="",country="",coordinates=NA)
 {
   url="http://api.openweathermap.org/data/2.5/forecast?q="
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> fb9b3315727da6711437c22dede5ca1880362f8b
   city=gsub(" ","+",city)
   country=gsub(" ","+",country)
   

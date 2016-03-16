@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# ROpenWeatherMap
-R package to get weather data using OpenWeatherMap API
-=======
 # ROpenWeatherMap
 R package to get weather data using OpenWeatherMap API
 
@@ -61,4 +57,3 @@ data=get_weather_forecast(api_key,cityID=2643743)
 
 ## Resources
 * [OpenWeatherMap API](http://openweathermap.org/api)
->>>>>>> fceb849c3435582047a9e421ceb639abef084b09

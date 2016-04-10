@@ -1,7 +1,7 @@
 # ROpenWeatherMap
 R Interface to get weather data using OpenWeatherMap API
 
-[![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/ROpenWeatherMap)](https://github.com/metacran/grand-total/cranlogs.app)
+[![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/ROpenWeatherMap)](http://cran.r-project.org/package=ROpenWeatherMap)
 [![cran version](http://www.r-pkg.org/badges/version/ROpenWeatherMap)](http://cran.rstudio.com/web/packages/RopenWeatherMap)
 
 ## Installation

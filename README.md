@@ -262,5 +262,8 @@ head(cbind(data$list$dt_txt,data$list$main$temp))
 ## [6,] "2016-03-17 06:00:00" "273.75" 
 ```
 
+
+<b>Sample Shiny App using ROpenWeatherMap :</b> [Weather forecast](https://github.com/mukul13/Projects/tree/master/Shiny%20Weather%20forecast)
+
 ## Resources
 * [OpenWeatherMap API](http://openweathermap.org/api)

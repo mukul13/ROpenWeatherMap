@@ -17,7 +17,7 @@ library(devtools)
 install_github("mukul13/ROpenWeatherMap")
 ```
 
-To get API key,sign up [here]((http://home.openweathermap.org/))
+To get API key,sign up  [here](http://home.openweathermap.org/)
 
 ## Examples
 

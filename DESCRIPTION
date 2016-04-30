@@ -12,3 +12,4 @@ License: MIT + file LICENSE
 LazyData: TRUE
 Imports: httr,RCurl,jsonlite
 RoxygenNote: 5.0.1.9000
+Suggests: testthat

@@ -1,6 +1,8 @@
 # ROpenWeatherMap
 R Interface to get weather data using OpenWeatherMap API
 
+[![Travis-CI Build Status](https://travis-ci.org/mukul13/ROpenWeatherMap.svg?branch=master)](https://travis-ci.org/mukul13/ROpenWeatherMap)
+[![Coverage Status](https://coveralls.io/repos/mukul13/ROpenWeatherMap/badge.svg?branch=master)](https://coveralls.io/r/mukul13/ROpenWeatherMap?branch=master)
 [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/ROpenWeatherMap)](http://cran.r-project.org/package=ROpenWeatherMap)
 [![cran version](http://www.r-pkg.org/badges/version/ROpenWeatherMap)](http://cran.rstudio.com/web/packages/RopenWeatherMap)
 

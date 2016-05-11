@@ -22,6 +22,20 @@ install_github("mukul13/ROpenWeatherMap")
 
 To get API key,sign up  [here](http://home.openweathermap.org/)
 
+### Running Behind a Proxy
+In the enterprise setting, you may need to make the API calls via an HTTP proxy. In this case, you can set the environmental variable `http_proxy` in the program code,
+```R
+Sys.setenv(http_proxy="<http_proxy_host>:<http_proxy_port>")
+```
+or the OS environmental varibale `http_proxy`
+```bash
+export http_proxy=<http_proxy_host>:<http_proxy_port>
+```
+and then verify it with
+```R
+Sys.getenv("http_proxy")
+```
+
 ## Examples
 
 To list all functions supported by this package
